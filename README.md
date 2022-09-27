@@ -46,7 +46,7 @@ Next, we investigated the difference between both manuscripts on the basis of ch
 - the use of «u» instead of «v», and not only in intravocalic positions. 
 - word-initial «z-», where «s-» is more common in Ms. A.
 
-![Alt text](/gfx/features.png?raw=true "Zeta for Scribal Analysis")
+![Alt text](/gfx/features_importance_mdi.png?raw=true "Zeta for Scribal Analysis")
 
 ### Diachronic scribal differences
 
