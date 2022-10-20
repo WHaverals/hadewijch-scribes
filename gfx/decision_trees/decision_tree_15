@@ -5,7 +5,7 @@ digraph G {
     ranksep=.22;
     rankdir=LR;
     margin=0.0;
-    graph [label="11th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
+    graph [label="15th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
     node [margin="0.03" penwidth="0.5" width=.1, height=.1];
     edge [arrowsize=.4 penwidth="0.3"]
 
@@ -13,6 +13,12 @@ digraph G {
             
             <tr>
                     <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node1_8125.svg"/></td>
+            </tr>
+            </table>>]
+	node5 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node5_8125.svg"/></td>
             </tr>
             </table>>]
 	node4 [margin="0" shape=none label=<<table border="0">
@@ -35,12 +41,20 @@ digraph G {
                 leaf2 -> leaf3 [style=invis]
             }
             
-	node4 -> leaf5 [penwidth=0.3 color="#444443" label=<>]
-	node4 -> leaf6 [penwidth=0.3 color="#444443" label=<>]
+	node5 -> leaf6 [penwidth=0.3 color="#444443" label=<>]
+	node5 -> leaf7 [penwidth=0.3 color="#444443" label=<>]
 	
             {
                 rank=same;
-                leaf5 -> leaf6 [style=invis]
+                leaf6 -> leaf7 [style=invis]
+            }
+            
+	node4 -> node5 [penwidth=0.3 color="#444443" label=<>]
+	node4 -> leaf8 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node5 -> leaf8 [style=invis]
             }
             
 	node0 -> node1 [penwidth=0.3 color="#444443" label=<&le;>]
@@ -63,16 +77,22 @@ digraph G {
                 <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf3_8125.svg"/></td>
         </tr>
         </table>>]
-	leaf5 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
-        
-        <tr>
-                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf5_8125.svg"/></td>
-        </tr>
-        </table>>]
 	leaf6 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
                 <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf6_8125.svg"/></td>
+        </tr>
+        </table>>]
+	leaf7 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+        
+        <tr>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf7_8125.svg"/></td>
+        </tr>
+        </table>>]
+	leaf8 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+        
+        <tr>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf8_8125.svg"/></td>
         </tr>
         </table>>]
 

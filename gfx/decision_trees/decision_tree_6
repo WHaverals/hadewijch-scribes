@@ -5,7 +5,7 @@ digraph G {
     ranksep=.22;
     rankdir=LR;
     margin=0.0;
-    graph [label="51th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
+    graph [label="6th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
     node [margin="0.03" penwidth="0.5" width=.1, height=.1];
     edge [arrowsize=.4 penwidth="0.3"]
 
@@ -19,6 +19,12 @@ digraph G {
             
             <tr>
                     <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node5_8125.svg"/></td>
+            </tr>
+            </table>>]
+	node8 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
+            
+            <tr>
+                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node8_8125.svg"/></td>
             </tr>
             </table>>]
 	node4 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
@@ -49,12 +55,20 @@ digraph G {
                 leaf6 -> leaf7 [style=invis]
             }
             
-	node4 -> node5 [penwidth=0.3 color="#444443" label=<>]
-	node4 -> leaf8 [penwidth=1.2 color="#D67C03" label=<>]
+	node8 -> leaf9 [penwidth=1.2 color="#D67C03" label=<>]
+	node8 -> leaf10 [penwidth=0.3 color="#444443" label=<>]
 	
             {
                 rank=same;
-                node5 -> leaf8 [style=invis]
+                leaf9 -> leaf10 [style=invis]
+            }
+            
+	node4 -> node5 [penwidth=0.3 color="#444443" label=<>]
+	node4 -> node8 [penwidth=1.2 color="#D67C03" label=<>]
+	
+            {
+                rank=same;
+                node5 -> node8 [style=invis]
             }
             
 	node0 -> node1 [penwidth=0.3 color="#444443" label=<&le;>]
@@ -89,10 +103,16 @@ digraph G {
                 <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf7_8125.svg"/></td>
         </tr>
         </table>>]
-	leaf8 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0" CELLBORDER="0">
+	leaf9 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0" CELLBORDER="0">
         
         <tr>
-                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf8_8125.svg"/></td>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf9_8125.svg"/></td>
+        </tr>
+        </table>>]
+	leaf10 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+        
+        <tr>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf10_8125.svg"/></td>
         </tr>
         </table>>]
 
@@ -117,16 +137,16 @@ digraph G {
                 
                 <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11"> ge</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">ē d</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
+                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">vā </font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">geu</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">ien </font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
                 </tr>
                 <tr>
-                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">0.11</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">0.07</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
+                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">0.06</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">0.04</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">0.00</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
                 </tr>
                 </table>
                 
                 >]
             }
-            leaf8 -> X_y [dir=back; penwidth="1.2" color="#D67C03" label=<<font face="Helvetica" color="#444443" point-size="11"> &#160;Prediction<br/> B</font>>]
+            leaf9 -> X_y [dir=back; penwidth="1.2" color="#D67C03" label=<<font face="Helvetica" color="#444443" point-size="11"> &#160;Prediction<br/> B</font>>]
             
 }
     

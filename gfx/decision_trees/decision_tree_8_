@@ -5,7 +5,7 @@ digraph G {
     ranksep=.22;
     rankdir=LR;
     margin=0.0;
-    graph [label="11th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
+    graph [label="8th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
     node [margin="0.03" penwidth="0.5" width=.1, height=.1];
     edge [arrowsize=.4 penwidth="0.3"]
 
@@ -15,13 +15,13 @@ digraph G {
                     <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node1_8125.svg"/></td>
             </tr>
             </table>>]
-	node4 [margin="0" shape=none label=<<table border="0">
+	node4 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
             
             <tr>
                     <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node4_8125.svg"/></td>
             </tr>
             </table>>]
-	node0 [margin="0" shape=none label=<<table border="0">
+	node0 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
             
             <tr>
                     <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node0_8125.svg"/></td>
@@ -36,7 +36,7 @@ digraph G {
             }
             
 	node4 -> leaf5 [penwidth=0.3 color="#444443" label=<>]
-	node4 -> leaf6 [penwidth=0.3 color="#444443" label=<>]
+	node4 -> leaf6 [penwidth=1.2 color="#D67C03" label=<>]
 	
             {
                 rank=same;
@@ -44,7 +44,7 @@ digraph G {
             }
             
 	node0 -> node1 [penwidth=0.3 color="#444443" label=<&le;>]
-	node0 -> node4 [penwidth=0.3 color="#444443" label=<&gt;>]
+	node0 -> node4 [penwidth=1.2 color="#D67C03" label=<&gt;>]
 	
             {
                 rank=same;
@@ -69,7 +69,7 @@ digraph G {
                 <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf5_8125.svg"/></td>
         </tr>
         </table>>]
-	leaf6 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+	leaf6 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0" CELLBORDER="0">
         
         <tr>
                 <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf6_8125.svg"/></td>
@@ -91,5 +91,22 @@ digraph G {
             }
             
     
+            subgraph cluster_instance {
+                style=invis;
+                X_y [penwidth="0.3" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
+                
+                <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td cellpadding="1" align="right" bgcolor="white"><font face="Junicode" color="#D67C03" point-size="11"> zij</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Junicode" color="#D67C03" point-size="11">aē </font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Junicode" color="#444443" point-size="11">...</font></td>
+                </tr>
+                <tr>
+                    <td cellpadding="1" align="right" bgcolor="white"><font face="Junicode" color="#D67C03" point-size="11">0.04</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Junicode" color="#D67C03" point-size="11">0.01</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Junicode" color="#444443" point-size="11">...</font></td>
+                </tr>
+                </table>
+                
+                >]
+            }
+            leaf6 -> X_y [dir=back; penwidth="1.2" color="#D67C03" label=<<font face="Junicode" color="#444443" point-size="11"> &#160;Prediction<br/> B</font>>]
+            
 }
     

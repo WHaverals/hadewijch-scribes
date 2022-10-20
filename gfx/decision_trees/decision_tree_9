@@ -9,25 +9,25 @@ digraph G {
     node [margin="0.03" penwidth="0.5" width=.1, height=.1];
     edge [arrowsize=.4 penwidth="0.3"]
 
-    node1 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
+    node1 [margin="0" shape=none label=<<table border="0">
             
             <tr>
-                    <td><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/node1_32173.svg"/></td>
+                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node1_8125.svg"/></td>
             </tr>
             </table>>]
 	node4 [margin="0" shape=none label=<<table border="0">
             
             <tr>
-                    <td><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/node4_32173.svg"/></td>
+                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node4_8125.svg"/></td>
             </tr>
             </table>>]
-	node0 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0">
+	node0 [margin="0" shape=none label=<<table border="0">
             
             <tr>
-                    <td><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/node0_32173.svg"/></td>
+                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node0_8125.svg"/></td>
             </tr>
             </table>>]
-    node1 -> leaf2 [penwidth=1.2 color="#D67C03" label=<>]
+    node1 -> leaf2 [penwidth=0.3 color="#444443" label=<>]
 	node1 -> leaf3 [penwidth=0.3 color="#444443" label=<>]
 	
             {
@@ -43,7 +43,7 @@ digraph G {
                 leaf5 -> leaf6 [style=invis]
             }
             
-	node0 -> node1 [penwidth=1.2 color="#D67C03" label=<&le;>]
+	node0 -> node1 [penwidth=0.3 color="#444443" label=<&le;>]
 	node0 -> node4 [penwidth=0.3 color="#444443" label=<&gt;>]
 	
             {
@@ -51,28 +51,28 @@ digraph G {
                 node1 -> node4 [style=invis]
             }
             
-    leaf2 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0" CELLBORDER="0">
+    leaf2 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
-                <td><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/leaf2_32173.svg"/></td>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf2_8125.svg"/></td>
         </tr>
         </table>>]
 	leaf3 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
-                <td><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/leaf3_32173.svg"/></td>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf3_8125.svg"/></td>
         </tr>
         </table>>]
 	leaf5 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
-                <td><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/leaf5_32173.svg"/></td>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf5_8125.svg"/></td>
         </tr>
         </table>>]
 	leaf6 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
-                <td><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/leaf6_32173.svg"/></td>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf6_8125.svg"/></td>
         </tr>
         </table>>]
 
@@ -83,7 +83,7 @@ digraph G {
                 
         <table border="0" cellspacing="0" cellpadding="0">
             <tr>
-                <td border="0" cellspacing="0" cellpadding="0"><img src="/var/folders/x6/m3hzmc3s3sq5s__b2fhk0w340000gn/T/legend_32173.svg"/></td>
+                <td border="0" cellspacing="0" cellpadding="0"><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/legend_8125.svg"/></td>
             </tr>
         </table>
         
@@ -91,22 +91,5 @@ digraph G {
             }
             
     
-            subgraph cluster_instance {
-                style=invis;
-                X_y [penwidth="0.3" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
-                
-                <table border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">ij̄ </font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11"> vā </font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
-                </tr>
-                <tr>
-                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">0.00</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">0.04</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
-                </tr>
-                </table>
-                
-                >]
-            }
-            leaf2 -> X_y [dir=back; penwidth="1.2" color="#D67C03" label=<<font face="Helvetica" color="#444443" point-size="11"> &#160;Prediction<br/> A</font>>]
-            
 }
     

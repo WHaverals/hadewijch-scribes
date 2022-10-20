@@ -5,20 +5,20 @@ digraph G {
     ranksep=.22;
     rankdir=LR;
     margin=0.0;
-    graph [label="11th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
+    graph [label="14th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
     node [margin="0.03" penwidth="0.5" width=.1, height=.1];
     edge [arrowsize=.4 penwidth="0.3"]
 
-    node1 [margin="0" shape=none label=<<table border="0">
+    node3 [margin="0" shape=none label=<<table border="0">
             
             <tr>
-                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node1_8125.svg"/></td>
+                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node3_8125.svg"/></td>
             </tr>
             </table>>]
-	node4 [margin="0" shape=none label=<<table border="0">
+	node2 [margin="0" shape=none label=<<table border="0">
             
             <tr>
-                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node4_8125.svg"/></td>
+                    <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node2_8125.svg"/></td>
             </tr>
             </table>>]
 	node0 [margin="0" shape=none label=<<table border="0">
@@ -27,40 +27,40 @@ digraph G {
                     <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/node0_8125.svg"/></td>
             </tr>
             </table>>]
-    node1 -> leaf2 [penwidth=0.3 color="#444443" label=<>]
-	node1 -> leaf3 [penwidth=0.3 color="#444443" label=<>]
+    node3 -> leaf4 [penwidth=0.3 color="#444443" label=<>]
+	node3 -> leaf5 [penwidth=0.3 color="#444443" label=<>]
 	
             {
                 rank=same;
-                leaf2 -> leaf3 [style=invis]
+                leaf4 -> leaf5 [style=invis]
             }
             
-	node4 -> leaf5 [penwidth=0.3 color="#444443" label=<>]
-	node4 -> leaf6 [penwidth=0.3 color="#444443" label=<>]
+	node2 -> node3 [penwidth=0.3 color="#444443" label=<>]
+	node2 -> leaf6 [penwidth=0.3 color="#444443" label=<>]
 	
             {
                 rank=same;
-                leaf5 -> leaf6 [style=invis]
+                node3 -> leaf6 [style=invis]
             }
             
-	node0 -> node1 [penwidth=0.3 color="#444443" label=<&le;>]
-	node0 -> node4 [penwidth=0.3 color="#444443" label=<&gt;>]
+	node0 -> leaf1 [penwidth=0.3 color="#444443" label=<&le;>]
+	node0 -> node2 [penwidth=0.3 color="#444443" label=<&gt;>]
 	
             {
                 rank=same;
-                node1 -> node4 [style=invis]
+                leaf1 -> node2 [style=invis]
             }
             
-    leaf2 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+    leaf1 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
-                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf2_8125.svg"/></td>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf1_8125.svg"/></td>
         </tr>
         </table>>]
-	leaf3 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+	leaf4 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
-                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf3_8125.svg"/></td>
+                <td><img src="/var/folders/qf/gfncxh752lj4x4y55z3b5vnm0000gn/T/leaf4_8125.svg"/></td>
         </tr>
         </table>>]
 	leaf5 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">

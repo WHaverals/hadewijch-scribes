@@ -5,7 +5,7 @@ digraph G {
     ranksep=.22;
     rankdir=LR;
     margin=0.0;
-    graph [label="11th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
+    graph [label="10th decision tree for scribal features", labelloc=t, fontname="Junicode" fontsize=14 fontcolor="#444443"];
     node [margin="0.03" penwidth="0.5" width=.1, height=.1];
     edge [arrowsize=.4 penwidth="0.3"]
 
