@@ -46,7 +46,7 @@ Next, we investigated the difference between both manuscripts on the basis of ch
 - the use of «u» instead of «v», and not only in intravocalic positions. 
 - word-initial «z-», where «s-» is more common in Ms. A.
 
-![Alt text](/gfx/features_importance_mdi.png?raw=true "Zeta for Scribal Analysis")
+![Alt text](/gfx/features_importance_mdi_FINAL.png?raw=true "Zeta for Scribal Analysis")
 
 ### Diachronic scribal differences
 
@@ -68,4 +68,4 @@ At face value, it would seem like there is an increase in the distance between b
 
 This would suggest at face value that there is evidence for the hypothesis saying that the scirbe of Ms. B would only gradually diverge from his exemplar, but remained very faithful in the beginning of the copy. However, that would be an oversimplification of the reality. Here, we add some vertical bars to the plot, signaling specific events in the text (shifts in the content and scribal takeovers in Ms. A). As it becomes clear, these "events" coincide with aspects of the curve. The first red vertical line, for instance, shows the point where Ms. A has the first scribal takeover. Thus, instead of assuming that the scribe of Ms. B stayed very close to his exemplar in the first folio’s of the transcriptions, we could also hypothesise that B’s spelling profile just happened to be closer to that of the first scribe in A. We see the same thing after the purple line, that signals the next scribal takeover in Ms. A. Interestingly, this is also a case of serendipity perhaps: whereas our original focus was on Ms. B, we believe this analysis actually tells us more about Ms. A.
 
-![Alt text](/gfx/distance_bars.png?raw=true "Scribal distance")
+![Alt text](/gfx/distance_bars_FINAL.png?raw=true "Scribal distance")
